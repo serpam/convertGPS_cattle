@@ -32,6 +32,6 @@ source("scripts/run_combina.R")
 Estas aplicaciones están en desarrollo, para cualquier duda, sugerencia o mejora, puedes abrir un [issue](https://github.com/serpam/convertGPS_cattle/issues), o contactarnos directamente. 
 
 Autores: 
-- [Antonio J. Pérez-Luque](@ajpelu)
+- [Antonio J. Pérez-Luque](https://github.com/ajpelu)
 - Mauro Tognetti Barbieri
 
