@@ -1,19 +1,22 @@
 library(shiny)
 library(tidyverse)
+library(shinythemes)
 library(hms)
 
 # ui object
-ui <- fluidPage(
+ui <- fluidPage(theme = shinytheme("flatly"),
 
   # App title ----
   titlePanel(
     title =
       div("Convertidor de datos de GPS de medida continua al formato estándar",
     p(),
-    img(src = "/logo_serpam.jpg", height = "50", " SERPAM-EEZ")),
+    img(src = "/logo_serpam.jpg", height = "50", " SERPAM-EEZ"),
+    tags$a(href = "https://lifewatcheric-sumhal.csic.es/", 
+           target = "_blank", 
+           tags$img(src = "/logosumhal.jpg", height = "70", "Proyecto SUMHAL"))),
     windowTitle = "GPS Converter"
   ),
-
   # Sidebar layout with input and output definitions ----
   sidebarLayout(
     
