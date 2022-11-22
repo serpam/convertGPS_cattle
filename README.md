@@ -32,6 +32,8 @@ source("scripts/run_combina.R")
 ## Versión
 Estas aplicaciones están en desarrollo, para cualquier duda, sugerencia o mejora, puedes abrir un [issue](https://github.com/serpam/convertGPS_cattle/issues), o contactarnos directamente.
 
+- `v.1.0` 
+
 ### Autores <sup><a href="#fn1" id="ref1">1</a></sup>
 
 -   [**Antonio J. Pérez-Luque**](https://github.com/ajpelu) <a href="https://orcid.org/0000-0002-1747-0469" target="orcid.widget"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a>: Conceptualization, Data curation, Methodology, Software, Validation, Visualization
@@ -48,7 +50,7 @@ Estas aplicaciones están en desarrollo, para cualquier duda, sugerencia o mejor
 
 ## Como citar 
 
-Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B. (2022). convertGPS_cattle: Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado. https://github.com/serpam/convertGPS_cattle. version 1.1. 
+Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B. (2022). convertGPS_cattle: Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado. https://github.com/serpam/convertGPS_cattle. version 1.0. 
 
 ```
 @misc{PerezLuque2022,
@@ -67,4 +69,4 @@ Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B.
 ## Financiación
 Este aplicación se ha desarrollado con financiación del proyecto SUMHAL: *SUMHAL, LIFEWATCH-2019-09-CSIC-13, POPE 2014-2020* 
 
-[<img align="middle" src="app_combina/www/logosumhal.jpg" width="150">](https://lifewatcheric-sumhal.csic.es/) [SUMHAL]
+[<img align="middle" src="app_combina/www/logosumhal.jpg" width="300">](https://lifewatcheric-sumhal.csic.es/)
