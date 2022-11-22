@@ -1,4 +1,5 @@
-# Apps para manejo de datos de dispositivos de seguimiento GPS del ganado
+# convertGPS_cattle
+### Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado
 
 Este repositorio contiene varios scripts y aplicaciones para manejar y transformar datos de seguimiento de GPS del ganado. Se han desarrollado por el [SERPAM](https://www.eez.csic.es/es/evaluacion-restauracion-y-proteccion-de-agrosistemas-mediterraneos-serpam) ***Servicio de Evaluación, Restauración y Protección de Agrosistemas Mediterráneos*** de la Estación Experimental del Zaidin del CSIC (EEZ-CSIC) en el contexto del proyecto [SUMHAL](https://lifewatcheric-sumhal.csic.es/), **Sustainability for Mediterraean Hospost integrating LifeWatch ERIC**. 
 
@@ -31,7 +32,26 @@ source("scripts/run_combina.R")
 ## Versión
 Estas aplicaciones están en desarrollo, para cualquier duda, sugerencia o mejora, puedes abrir un [issue](https://github.com/serpam/convertGPS_cattle/issues), o contactarnos directamente. 
 
-Autores: 
-- [Antonio J. Pérez-Luque](https://github.com/ajpelu)
-- Mauro Tognetti Barbieri
+## Autores 
+- [**Antonio J. Pérez-Luque**](https://github.com/ajpelu) <a href="https://orcid.org/0000-0002-1747-0469" target="orcid.widget"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a>
+- **Mauro J. Tognetti Barbieri**
+- **Maria Eugenia Ramos Font** <a href="https://orcid.org/0000-0002-4888-0401" target="orcid.widget"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a>
+- **Ana Belén Robles Cruz**
 
+## Como citar 
+
+Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B. (2022). convertGPS_cattle: Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado. https://github.com/serpam/convertGPS_cattle. version 1.1. 
+
+```
+@misc{PerezLuque2022,
+	title        = {convertGPS_cattle: Una aplicación para el procesamiento y exploración de datos 
+	                de dispositivos GPS de medición contínua para el ganado},
+	author       = {Pérez-Luque, Antonio Jesús and Toggnetti Barbieri, Mauro José and 
+	                Ramos-Font, Maria Eugenia and Robles Cruz, Ana Belén},
+	year         = {2022},
+	month        = {11},
+	url          = {https://github.com/serpam/convertGPS_cattle},
+	version      = {1.0}
+}
+
+```
