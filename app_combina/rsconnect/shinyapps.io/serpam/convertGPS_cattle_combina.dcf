@@ -1,0 +1,13 @@
+name: convertGPS_cattle_combina
+title: convertGPS_cattle_combina
+username:
+account: serpam
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7704784
+bundleId: 6543087
+url: https://serpam.shinyapps.io/convertGPS_cattle_combina/
+when: 1669126504.2987
+lastSyncTime: 1669126504.29872
+asMultiple: FALSE
+asStatic: FALSE
