@@ -1,6 +1,8 @@
 # convertGPS_cattle
 ### Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado
 
+[![DOI](https://zenodo.org/badge/457682829.svg)](https://zenodo.org/badge/latestdoi/457682829)
+
 Este repositorio contiene varios scripts y aplicaciones para manejar y transformar datos de seguimiento de GPS del ganado. Se han desarrollado por el [SERPAM](https://www.eez.csic.es/es/evaluacion-restauracion-y-proteccion-de-agrosistemas-mediterraneos-serpam) ***Servicio de Evaluación, Restauración y Protección de Agrosistemas Mediterráneos*** de la Estación Experimental del Zaidin del CSIC (EEZ-CSIC) en el contexto del proyecto [SUMHAL](https://lifewatcheric-sumhal.csic.es/), **Sustainability for Mediterraean Hospost integrating LifeWatch ERIC**. 
 
 ## Utilización
@@ -62,7 +64,7 @@ Estas aplicaciones están en desarrollo, para cualquier duda, sugerencia o mejor
 
 ## Como citar 
 
-Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B. (2022). convertGPS_cattle: Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado. https://github.com/serpam/convertGPS_cattle. version 1.0. 
+Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B. (2022). convertGPS_cattle: Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado. https://github.com/serpam/convertGPS_cattle. version 1.0. doi: [10.5281/zenodo.7347994](https://doi.org/10.5281/zenodo.7347994)
 
 ```
 @misc{PerezLuque2022,
