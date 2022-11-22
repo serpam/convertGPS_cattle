@@ -11,10 +11,10 @@ ui <- fluidPage(theme = shinytheme("flatly"),
     title =
       div("Combina datos GPS de diferentes dispositivos",
           p(),
-          img(src = "/logo_serpam.jpg", height = "50", " SERPAM-EEZ"),
+          img(src = "logo_serpam.jpg", height = "50", " SERPAM-EEZ"),
           tags$a(href = "https://lifewatcheric-sumhal.csic.es/", 
                  target = "_blank", 
-                 tags$img(src = "/logosumhal.jpg", height = "70", "Proyecto SUMHAL"))),
+                 tags$img(src = "logosumhal.jpg", height = "70", "Proyecto SUMHAL"))),
     windowTitle = "GPS Combina"
   ),
   
@@ -22,18 +22,20 @@ ui <- fluidPage(theme = shinytheme("flatly"),
   sidebarLayout(
     sidebarPanel(width = 3,
       fileInput("csvs",
-                label="Selecciona los archivos *.csv",
+                label = "Selecciona los archivos *.csv",
                 multiple = TRUE) %>% 
         helper(icon = "question",
                colour = "green",
                type = "markdown",
-               content = "input_helper")
+               content = "input_helper", 
+               buttonLabel = "Ok")
     ),
     mainPanel(width = 9,
       tabsetPanel(type = "tabs",
                   tabPanel("Summary Table", DT::dataTableOutput("SummaryTable")),
                   tabPanel("Table", DT::dataTableOutput("Table")),
-                  tabPanel("Plot", plotOutput("Plot")))
+                  tabPanel("Plot", plotOutput("Plot")),
+                  tabPanel("About", includeMarkdown("about.md")))
     )
   )
 )
@@ -42,7 +44,7 @@ server <- function(input, output, session) {
   
   observe_helpers(withMathJax = TRUE)
   
-  mycsvs <-reactive({
+  mycsvs <- reactive({
     
     ruta <- input$csvs$datapath
     
@@ -53,7 +55,7 @@ server <- function(input, output, session) {
         bind_rows() %>% 
         mutate(date = lubridate::make_date(as.numeric(paste0("20", year)), month, day),
                date_time = lubridate::make_datetime(as.numeric(paste0("20", year)), month, day, 
-                                                    hour, min = minute, sec=second)) 
+                                                    hour, min = minute, sec = second)) 
   })
 
 
@@ -61,14 +63,14 @@ server <- function(input, output, session) {
     
     d <- mycsvs()
     
-    if(is.null(d)) return(NULL)
+    if (is.null(d)) return(NULL)
     
   
     # number of cols in plot 
     ncolplot <- function(x){
       ratio <- x/4
       if (ratio <= 1) n <- 1
-      if((ratio - floor(ratio)) == 0){
+      if ((ratio - floor(ratio)) == 0) {
         n <- round(ratio)
       } else {
         n <- round(ratio) + 1}
@@ -80,8 +82,8 @@ server <- function(input, output, session) {
     d %>% 
       group_by(date, id_gps) %>% 
       summarise(n = length(id_gps)) %>% 
-      ggplot(aes(y=n, x=date)) + 
-      geom_bar(stat="identity") +
+      ggplot(aes(y = n, x = date)) + 
+      geom_bar(stat = "identity") +
       geom_hline(yintercept = (60/5)*23, colour = "blue") +
       facet_wrap(~id_gps, ncol = nn) +
       theme_bw()
@@ -92,7 +94,7 @@ server <- function(input, output, session) {
     
     d <- mycsvs()
     
-    if(is.null(d)) return(NULL)
+    if (is.null(d)) return(NULL)
     
     d %>%
       group_by(id_gps) %>% 
