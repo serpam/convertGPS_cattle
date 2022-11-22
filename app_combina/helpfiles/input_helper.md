@@ -1,6 +1,6 @@
+## Combina y Explora datos de dispositivos GPS de Ganado
 
 Esta aplicación explora y combina archivos de dispositivos de seguimiento GPS de ganado.
-
 
 1. Selecciona los archivos `csv` a explorar
 
@@ -11,13 +11,4 @@ Esta aplicación explora y combina archivos de dispositivos de seguimiento GPS d
   - ***Registros esperados*** teniendo en cuenta el intervalo de medición (5 minutos) y el número de días con registros. 
   
 3. Se genera un gráfico (pestaña `Plot`) donde se indica el número total de registros para cada día y cada dispositivo. 
-
 4. Se genera una tabla combinada de todos los archivos, y se permite la descarga de dicho archivo en formato csv (pestaña `Table`) 
-
-
-***
-Authors: 
-
-- [Pérez-Luque, A.J.](https://twitter.com/ajpelu)
-- Tognetti-Barbieri, M.T. 
-
