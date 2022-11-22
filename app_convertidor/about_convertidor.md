@@ -2,7 +2,7 @@
 
 Esta aplicación convierte datos de seguimiento GPS de ganado de tomados con dispositivos de medición contínua que registran la posición del animal a intervalos de 5 minutos. 
 
-Cada dipositivo almacena los datos en un formato propio que no es adecuado para su inclusión en la base de datos desarrollada para la visualización de los datos de pastoreo, que posteriormente alimentam el Virtual Research Environment (VRE) de estimación de la intensidad de pastoreo ([vreGI](https://serpam.github.io/sumhal_vreGI). 
+Cada dipositivo almacena los datos en un formato propio que no es adecuado para su inclusión en la base de datos desarrollada para la visualización de los datos de pastoreo, que posteriormente alimentam el Virtual Research Environment (VRE) de estimación de la intensidad de pastoreo ([vreGI](https://serpam.github.io/sumhal_vreGI)). 
 
 Esta aplicación se ha desarrollado en el marco del proyecto [SUMHAL](https://lifewatcheric-sumhal.csic.es/) (*Sustainability for Mediterranean Hotspots in Andalusia integrating LifeWatch ERIC*), en concreto en los subproyectos LWE2103026 y LWE2103027 que se centran en analizar el papel de las prácticas silvopastorales tradicionales en la biodiversidad de los ecosistemas y en la prevención de incendios forestales de espacios naturales de Andalucía, para lo que se apoyará en herramientas tecnológicas actualizadas. Estos subpoyectos los están ejecutando el Servicio de Evaluación, Restauración y Protección de Agrosistemas Mediterráneos (***SERPAM***) de la [Estación Experimental del Zaidin](https://www.eez.csic.es/), del CSIC. 
 
