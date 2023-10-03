@@ -76,6 +76,7 @@ Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B.
 	month        = {11},
 	url          = {https://github.com/serpam/convertGPS_cattle},
 	version      = {1.0}
+	doi          = {10.5281/zenodo.7347994}
 }
 
 ```
