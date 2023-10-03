@@ -11,7 +11,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),
     title =
       div("Combina datos GPS de diferentes dispositivos",
           p(),
-          img(src = "logo_serpam.jpg", height = "50", " SERPAM-EEZ"),
+          img(src = "logo_serpam.jpg", height = "150"),
           tags$a(href = "https://lifewatcheric-sumhal.csic.es/", 
                  target = "_blank", 
                  tags$img(src = "logosumhal.jpg", height = "70", "Proyecto SUMHAL"))),

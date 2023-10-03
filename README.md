@@ -22,7 +22,7 @@ Esta aplicación realiza la conversión de archivos descargados de los dispositi
 source("scripts/run_convertidor.R") 
 ```
 
-2. **Online**. Esta aplicación también puedes ejecutarla [aquí](https://serpam.shinyapps.io/convertGPS_cattle_convertidor/)
+2. **Online**. Esta aplicación también puedes ejecutarla [aquí](https://eez-csic.gvsigonline.com/shiny/sumhal/app_convertidor/)
 
 
 ## Combinar y explorar archivos de dispositivos GPS
@@ -41,7 +41,7 @@ Esta aplicación permite realizar varias operaciones sobre los archivos de los d
 source("scripts/run_combina.R") 
 ```
 
-2. **Online**. Esta aplicación también puedes ejecutarla [aquí](https://serpam.shinyapps.io/convertGPS_cattle_combina/)
+2. **Online**. Esta aplicación también puedes ejecutarla [aquí](https://eez-csic.gvsigonline.com/shiny/sumhal/app_combina/)
 
 ## Versión
 Estas aplicaciones están en desarrollo, para cualquier duda, sugerencia o mejora, puedes abrir un [issue](https://github.com/serpam/convertGPS_cattle/issues), o contactarnos directamente.

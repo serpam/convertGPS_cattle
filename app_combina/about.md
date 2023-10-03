@@ -4,7 +4,7 @@ Esta aplicación explora y combina archivos de dispositivos de seguimiento GPS d
 
 ### Como citar 
 
-Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B. (2022). convertGPS_cattle: Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado. https://github.com/serpam/convertGPS_cattle. version 1.0. 
+Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B. (2022). convertGPS_cattle: Una aplicación para el procesamiento y exploración de datos de dispositivos GPS de medición contínua para el ganado. https://github.com/serpam/convertGPS_cattle. version 1.0. doi: [10.5281/zenodo.7347993](https://doi.org/10.5281/zenodo.7347993) 
 
 ### Credits <sup><a href="#fn1" id="ref1">1</a></sup>
 
@@ -12,13 +12,13 @@ Pérez-Luque, A.J.; Tognetti Barbieri, M.J.; Ramos-Font, M.E.; Robles-Cruz, A.B.
 
 -   **Mauro J. Tognetti Barbieri**: Data curation, Methodology, Validation, and Visualization.
 
--   **Maria Eugenia Ramos Font** <a href="https://orcid.org/0000-0002-4888-0401" target="orcid.widget"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a>:: Funding acquisition and Resources.
+-   **Maria Eugenia Ramos Font** <a href="https://orcid.org/0000-0002-4888-0401" target="orcid.widget"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a>: Funding acquisition and Resources.
 
--   **Ana Belén Robles Cruz**: Funding acquisition, Project administration, Resources, and Supervision.
+-   **Ana Belén Robles Cruz** <a href="https://orcid.org/0000-0002-1353-2917" target="orcid.widget"> <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID logo" width="16" height="16"/></a>:Funding acquisition, Project administration, Resources, and Supervision.
 
 
 <sup id="fn1">1. ([CRedIT](https://credit.niso.org/) Statment)<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
 
 ## Acknowledgements 
-Este aplicación se ha desarrollado con financiación del proyecto SUMHAL: *SUMHAL, LIFEWATCH-2019-09-CSIC-13, POPE 2014-2020* 
+Este aplicación se ha desarrollado con financiación del proyecto SUMHAL: *SUMHAL, LIFEWATCH-2019-09-CSIC-04, POPE 2014-2020* 
 
